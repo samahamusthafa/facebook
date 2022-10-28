@@ -1,0 +1,139 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook</title>
+    <!-- Google font icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link href="style.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="containter">
+      <div class="header">
+        <div class="logo">
+          <a class="logo-text" href="index.html">facebook</a>
+        </div>
+        <div class="login">
+          <form action="">
+            <table class="table">
+              <tr>
+                <td><label class="login-label">Email or Phone</label></td>
+                <td class="padding-left-10">
+                  <label class="login-label">Password</label>
+                </td>
+              </tr>
+              <tr>
+                <td><input type="text" /></td>
+                <td class="padding-left-10"><input type="text" /></td>
+                <td class="padding-left-10">
+                  <input class="submit-btn" type="submit" value="login" />
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td class="padding-left-10">
+                  <label class="forgotten">Forgotten account?</label>
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+      </div>
+      <div class="main-body">
+        <div class="left-section">
+          <p class="main-para">
+            Facebook helps you connect and share with the<br />
+            people in your life
+          </p>
+          <img
+            class="image"
+            src="https://i.postimg.cc/Wb7QX00n/OBa-Vg52wt-TZ.png"
+          />
+        </div>
+        <div class="right-section">
+          <h1 class="heading">Create an account</h1>
+          <p class="para3">It's quick and easy.</p>
+          <form class="form" action="hello.html" id="form">
+            <input
+              name="fname"
+              class="content"
+              type="text"
+              placeholder="First name"
+            />
+            <input
+              name="sname"
+              class="content"
+              type="text"
+              placeholder="Surname"
+            />
+            <br />
+            <br />
+            <input
+            name="emailAddress"
+              class="content2"
+              type="text"
+              placeholder="Mobile number or email address"
+            />
+            <br />
+            <br />
+            <input name="password" class="content2" type="text" placeholder="New password" />
+            <br />
+            <br />
+            <label class="birthday">Birthday</label>
+            <br />
+            <div id="birthday" style="margin-bottom: 10px">
+              <select class="dob" name="day">
+                <option value="">Day</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+              </select>
+              <select class="dob" name="month">
+                <option>Month</option>
+                <option>Jan</option>
+                <option>Feb</option>
+                <option>Mar</option>
+              </select>
+              <select class="dob" name="year">
+                <option>Year</option>
+                <option>2000</option>
+                <option>2001</option>
+                <option>2002</option>
+                <option>2003</option>
+              </select>
+              <i class="material-icons">help</i>
+            </div>
+            <label class="gender">Gender</label>
+            <div id="gender">
+              <input type="radio" name="gender" style="margin: 0" />
+              <label style="font-size: 20px; margin-right: 20px">Female</label>
+              <input type="radio" name="gender" style="margin: 0" />
+              <label style="font-size: 20px; margin-right: 20px">Male</label>
+              <input type="radio" name="gender" style="margin: 0" />
+              <label style="font-size: 20px; margin-right: 20px">Custom</label>
+              <i class="material-icons">help</i>
+            </div>
+            <p class="last-para">
+              By clicking Sign Up,you agree to our
+              <i class="blue-para">Terms,Data policy</i><br />
+              and <i class="blue-para">Cookie Policy.</i>You may receive SMS
+              notifications from <br />us and can opt out at any time.
+            </p>
+            <input class="sign-up" type="submit" value="Sign Up" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
+    
+  </body>
+</html>
